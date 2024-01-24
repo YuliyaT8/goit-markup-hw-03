@@ -7,6 +7,19 @@ a {
 ul,ol {
     list-style: none;
 }
+.head {
+    border-bottom: 1px;
+     color:  #e7e9fc;
+}
+.div-container {
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px 0 15px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -15,6 +28,7 @@ ul,ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-part {
     color: #2E2F42;
@@ -25,6 +39,10 @@ ul,ol {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: flex;
+        gap: 40px;
+        padding: 24px 0;
+        margin-right: 40px;
     }
 .nav-link:hover,
 .nav-link:focus{
@@ -38,6 +56,9 @@ ul,ol {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: flex;
+        gap: 40px;
+        margin-right: 40px;
 }
 .address-link:hover,
 .address :focus  {

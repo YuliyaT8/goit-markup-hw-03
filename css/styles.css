@@ -60,6 +60,7 @@ p {
 }
 .address {
     font-style: normal;
+    display: flex;
 }
 .address-link {
     color: #434455;
@@ -118,18 +119,22 @@ background-color: #404BBF;
  margin-bottom: 8px;
 }
 .teamul {
-    background-color: #F4F4FD;
-    color: #2E2F42;
-    font-family: Roboto;sans-serif;
+       color: #2E2F42;
+        font-family: Roboto;sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
+        margin-bottom: 72px;
+}
+.center {
+    display: flex;
 }
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 img {
     background-color: #FFF;
@@ -142,7 +147,7 @@ img {
         letter-spacing: 0.02em;
 }
 .portfolio {
-    background-color:##FFF;;
+    background-color: #FFF;;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -179,6 +184,8 @@ img {
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 16px;
 }
 .logo-partt {
     color: #F4F4FD;
@@ -196,4 +203,5 @@ img {
 
 .footer {
 background-color:#2E2F42;
+padding: 100px 0;
 }

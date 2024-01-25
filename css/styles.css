@@ -84,6 +84,7 @@ background: #2E2F42;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
+        max-width: 496px;
 }
 .cursor-pointer {
     cursor: pointer;
@@ -115,6 +116,9 @@ background-color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.second {
+    padding: 120px 0;
+}
 .you {
  margin-bottom: 8px;
 }
@@ -131,6 +135,7 @@ background-color: #404BBF;
 }
 .center {
     display: flex;
+    gap: 24px;
 }
 .team {
     background-color: #F4F4FD;
@@ -139,6 +144,7 @@ background-color: #404BBF;
 img {
     background-color: #FFF;
     display: block;
+    justify-content: center;
 }
  .middle {
     color: #434455;

@@ -18,10 +18,10 @@ p {
     margin: 0;
 }
 .head {
-    border-bottom: 1px;
-     color:  #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 .div-container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -92,10 +92,18 @@ background: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .cursor-pointer:hover,
 .cursor-pointer:focus {
 background-color: #404BBF;
+}
+.start {
+    padding: 120px 0;
 }
 .title {
     color: #2E2F42;
@@ -105,6 +113,9 @@ background-color: #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+.you {
+ margin-bottom: 8px;
 }
 .teamul {
     background-color: #F4F4FD;
@@ -122,6 +133,7 @@ background-color: #404BBF;
 }
 img {
     background-color: #FFF;
+    display: block;
 }
  .middle {
     color: #434455;

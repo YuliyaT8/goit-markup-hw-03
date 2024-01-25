@@ -6,6 +6,16 @@ a {
 }
 ul,ol {
     list-style: none;
+    margin: 0;
+    padding-left:0;
+}
+h1,
+h2,
+h3, {
+    margin: 0;
+}
+p {
+    margin: 0;
 }
 .head {
     border-bottom: 1px;
@@ -13,7 +23,7 @@ ul,ol {
 }
 .div-container {
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px 0 15px;
 }
 .nav {

@@ -28,6 +28,7 @@ p {
 }
 .header-container {
     display: flex;
+    align-items: center;
 }
 .nav {
     display: flex;
@@ -62,10 +63,11 @@ p {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: flex;
+        display: block;
         gap: 40px;
         padding: 24px 0;
         margin-right: 40px;
+      
     }
 .nav-link:hover,
 .nav-link:focus{

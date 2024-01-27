@@ -133,6 +133,8 @@ background-color: #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .second {
     padding: 120px 0;
@@ -160,6 +162,10 @@ background-color: #404BBF;
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.container plus {
+    padding: 32px 0;
+
+}
 img {
     background-color: #FFF;
     display: block;
@@ -184,6 +190,12 @@ img {
 }
 .bak {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
 }
     
  .team-p {
@@ -191,6 +203,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .name {
     background-color: #FFFFFF;

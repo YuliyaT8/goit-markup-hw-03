@@ -7,7 +7,7 @@ a {
 ul,ol {
     list-style: none;
     margin: 0;
-    padding-left:0;
+    padding:0;
 }
 h1,
 h2,
@@ -20,11 +20,14 @@ p {
 .head {
     border-bottom: 1px solid #e7e9fc;
 }
-.div-container {
+.container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+}
+.header-container {
+    display: flex;
 }
 .nav {
     display: flex;
@@ -42,6 +45,16 @@ p {
 }
 .logo-part {
     color: #2E2F42;
+}
+.navv {
+    display: flex;
+}
+.address ul {
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+    margin-right: 40px;
+    line-height: 1.5;
 }
 .nav-link {
     color: #2e2f42;
@@ -67,9 +80,7 @@ p {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: flex;
-        gap: 40px;
-        margin-right: 40px;
+        
 }
 .address-link:hover,
 .address :focus  {
@@ -136,6 +147,7 @@ background-color: #404BBF;
 .center {
     display: flex;
     gap: 24px;
+   
 }
 .team {
     background-color: #F4F4FD;

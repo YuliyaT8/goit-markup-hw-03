@@ -49,6 +49,7 @@ p {
 }
 .navv {
     display: flex;
+    gap: 40px;
 }
 .address ul {
     display: flex;
@@ -67,8 +68,12 @@ p {
         gap: 40px;
         padding: 24px 0;
         margin-right: 40px;
-      
     }
+
+        .nav-linkk{
+        margin-right: 0;
+    }
+    
 .nav-link:hover,
 .nav-link:focus{
     color: #404bbf;

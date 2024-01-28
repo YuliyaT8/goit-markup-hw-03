@@ -166,15 +166,6 @@ background-color: #404BBF;
     padding: 120px 0;
     
 }
-.container plus {
-    display: inline-flex;
-        padding-bottom: 32px 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-
-}
 img {
     background-color: #FFF;
     display: block;

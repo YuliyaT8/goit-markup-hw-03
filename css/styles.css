@@ -36,6 +36,10 @@ p {
     display: flex;
     gap: 40px;
 }
+.my-menu {
+    display: flex;
+    gap: 40px;
+}
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -61,9 +65,9 @@ p {
         margin-right: 40px;
     }
 
-        .nav-linkk{
+.nav-link:last-child {
     margin-right: 0px;
-    }
+}
     
 .nav-link:hover,
 .nav-link:focus{
@@ -72,19 +76,22 @@ p {
 .address {
     font-style: normal;
     display: flex;
-        margin-left: auto;
+    margin-left: auto;
+   
 }
 .address-link {
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: flex;
-            gap: 40px;
-            margin-right: 40px;
-            line-height: 1.5;
-        
+        margin-right: 40px;
+        line-height: 1.5;
 }
+    address ul {
+        display: flex;
+        gap: 40px;
+    }
+
 .address-link:hover,
 .address :focus  {
     color: #404bbf;

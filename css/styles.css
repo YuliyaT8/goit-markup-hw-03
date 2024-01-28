@@ -164,12 +164,7 @@ background-color: #404BBF;
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
-    width: calc ((100% - 72px) / 4);
-        border-radius: 0px 0px 4px 4px;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+    
 }
 .container plus {
     display: inline-flex;
@@ -203,12 +198,12 @@ img {
     flex-shrink: 0;
 }
 .bak {
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    width: calc ((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
     
 }
     

@@ -151,6 +151,7 @@ background-color: #404BBF;
 .titlee {
     margin-bottom: 8px;
     align-items: center;
+    text-align: center;
 }
 .teamul {
        color: #2E2F42;
@@ -168,9 +169,9 @@ background-color: #404BBF;
     display: flex;
     gap: 24px;
     row-gap: 48px;
-}
-.centerr {
-   flex-wrap: wrap;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .lii { 
     width: calc((100% - 72px) / 4);
@@ -217,7 +218,9 @@ img {
     border-bottom-left-radius: 4px;
     width: calc ((100% - 72px) / 4);
 }
-    
+ .wow {
+ 
+  }
  .team-p {
     color: #434455;
     font-size: 16px;

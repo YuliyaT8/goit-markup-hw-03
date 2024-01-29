@@ -172,8 +172,11 @@ background-color: #404BBF;
 }
 .lii { 
     width: calc((100% - 72px) / 4);
-    width calc((100% - 3 * 24px) / 4)
+    width calc((100% - 3 * 24px) / 4);
+    gap: 24px;
+    margin-right: 24px;
 }
+
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -265,4 +268,7 @@ img {
 .footer {
 background-color:#2E2F42;
 padding: 100px 0;
+}
+.lii :last-child {
+margin-right: 0;
 }

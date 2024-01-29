@@ -218,9 +218,6 @@ img {
     border-bottom-left-radius: 4px;
     width: calc ((100% - 72px) / 4);
 }
- .wow {
- 
-  }
  .team-p {
     color: #434455;
     font-size: 16px;
@@ -245,6 +242,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 .logo-footer {
     color: #4D5AE5;

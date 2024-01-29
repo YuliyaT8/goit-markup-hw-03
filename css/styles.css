@@ -91,12 +91,7 @@ p, h1, h2, h3, {
 .address :focus  {
     color: #404bbf;
 }
-.address li {
-margin-right: 40px;
-}
-.address li :last-child {
-    margin-right: 0;
-}
+
 .start {
 background: #2E2F42;
 }

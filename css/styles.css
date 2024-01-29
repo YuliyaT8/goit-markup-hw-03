@@ -272,3 +272,12 @@ padding: 100px 0;
 .lii :last-child {
 margin-right: 0;
 }
+.forty {
+    width: calc((100% - 48px) / 3);
+}
+.app-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}

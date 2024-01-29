@@ -14,7 +14,7 @@ h2,
 h3, {
     margin: 0;
 }
-p, h1, h2, h3 {
+p, h1, h2, h3, {
     margin: 0;
 }
 .head {
@@ -76,6 +76,7 @@ p, h1, h2, h3 {
     font-style: normal;
     display: flex;
     margin-left: auto;
+    gap: 40px;
    
 }
 .address-link {
@@ -92,7 +93,6 @@ p, h1, h2, h3 {
 }
 .address li {
 margin-right: 40px;
-
 }
 .address li :last-child {
     margin-right: 0;
@@ -144,8 +144,9 @@ background-color: #404BBF;
 .second {
     padding: 120px 0;
 }
-.you {
+.visually-hidden {
  margin-bottom: 8px;
+ text-align: center;
 }
 .titlee {
     margin-bottom: 8px;
@@ -173,7 +174,6 @@ background-color: #404BBF;
 }
 .lii { 
     width: calc((100% - 72px) / 4);
-    width calc((100% - 3 * 24px) / 4);
     gap: 24px;
 }
 

@@ -175,7 +175,6 @@ background-color: #404BBF;
 }
 .lii { 
     width: calc((100% - 72px) / 4);
-  
     margin-right: 24px;
 }
 
@@ -288,6 +287,7 @@ padding: 100px 0;
 .centero {
     display: flex;
     gap: 24px;
+    
 }
 .team-pp {
     color: #434455;

@@ -229,7 +229,9 @@ img {
  padding: 32px 0;
  padding-bottom: 32px;
 }
-  
+  .add {
+    gap: 24px;
+  }
 
 .name {
     background-color: #FFFFFF;

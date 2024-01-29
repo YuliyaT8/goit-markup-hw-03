@@ -87,11 +87,6 @@ p {
         margin-right: 40px;
         line-height: 1.5;
 }
-    address ul {
-        display: flex;
-        gap: 40px;
-    }
-
 .address-link:hover,
 .address :focus  {
     color: #404bbf;

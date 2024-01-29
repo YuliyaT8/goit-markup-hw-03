@@ -233,7 +233,9 @@ img {
     gap: 24px;
     display: flex;
   }
-
+.centerr {
+    gap: 24px;
+}
 .name {
     background-color: #FFFFFF;
     color:#2e2f42;

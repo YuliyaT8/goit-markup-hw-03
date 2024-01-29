@@ -171,7 +171,7 @@ background-color: #404BBF;
     row-gap: 48px;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
+    
 }
 .lii { 
     width: calc((100% - 72px) / 4);

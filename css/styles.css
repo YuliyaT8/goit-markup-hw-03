@@ -275,9 +275,7 @@ img {
 background-color:#2E2F42;
 padding: 100px 0;
 }
-.lii :last-child {
-margin-right: 0;
-}
+
 .forty {
     width: calc((100% - 48px) / 3);
 }
@@ -287,3 +285,13 @@ margin-right: 0;
     border-top: none;
     margin-bottom: 8px;
 }
+.centero {
+    display: flex;
+    gap: 24px;
+}
+.team-pp {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   }

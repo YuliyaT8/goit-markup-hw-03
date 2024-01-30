@@ -60,7 +60,7 @@ p, h1, h2, h3, {
         display: block;
         gap: 40px;
         padding: 24px 0;
-        margin-right: 40px;
+        
     }
 
 .nav-link:last-child {
@@ -93,11 +93,12 @@ background: #2E2F42;
     color: #FFF;
         font-size: 56px;
         line-height: 1.07;
-        text-align: center;
         letter-spacing: 0.02em;
         max-width: 496px;
         margin-bottom: 0;
         margin-top: 0;
+        text-align: center;
+        margin-left: 472px;
         
 }
 .cursor-pointer {
@@ -114,6 +115,7 @@ background: #2E2F42;
     border: none;
     border-radius: 4px;
     text-align: center;
+    margin-top: 48px;
 }
 .cursor-pointer:hover,
 .cursor-pointer:focus {

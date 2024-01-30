@@ -138,7 +138,7 @@ background-color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin: 0;
+    
 }
 .second {
     padding: 120px 0;
@@ -153,11 +153,11 @@ background-color: #404BBF;
     align-items: center;
     text-align: center;
     color: #2E2F42;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
         
 }
 .teamul {

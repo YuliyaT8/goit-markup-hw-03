@@ -13,9 +13,11 @@ h1,
 h2,
 h3, {
     margin: 0;
+    padding: 0;
 }
 p, h1, h2, h3, {
     margin: 0;
+    padding: 0;
 }
 .head {
     border-bottom: 1px solid #e7e9fc;
@@ -98,7 +100,8 @@ background: #2E2F42;
         margin-bottom: 0;
         margin-top: 0;
         text-align: center;
-        margin-left: 272px;
+        margin-left: auto;
+        margin-right: auto;
        
 }
 .cursor-pointer {
@@ -116,7 +119,8 @@ background: #2E2F42;
     border-radius: 4px;
     text-align: center;
     margin-top: 48px;
-    margin-left: 436px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cursor-pointer:hover,
 .cursor-pointer:focus {
@@ -138,6 +142,7 @@ background-color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    margin: 0;
     
 }
 .second {
@@ -158,6 +163,7 @@ background-color: #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin: 0;
         
 }
 .teamul {
@@ -170,6 +176,7 @@ background-color: #404BBF;
         text-transform: capitalize;
         text-align: center;
         margin-bottom: 72px;
+        margin: 0;
     
 }
 .center {
@@ -181,6 +188,7 @@ background-color: #404BBF;
 }
 .lii { 
     width:calc((100% - 72px) / 4);
+    margin: 0;
    
 }
 
@@ -215,6 +223,7 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin: 0;
 }
 .portfolio {
     background-color: #FFF;;
@@ -223,6 +232,7 @@ img {
     letter-spacing: 0.02em;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin: 0;
 }
 .text {
     background-color:#2E2F42;
@@ -232,6 +242,8 @@ img {
 .bak {
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+    margin: 0;
+    background-color: #FFF;
 }
  .team-p {
     color: #434455;
@@ -263,6 +275,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    margin: 0;
 }
 .team-pp {
     margin: 0;
